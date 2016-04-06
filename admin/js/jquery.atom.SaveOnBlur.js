@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     // Auto Save Field:
     $('.blur-save').on('focus', function(){
-        $(this).addClass('input-focus');
+    $(this).addClass('input-focus');
     });
 
     $('.blur-save').on('blur', function(){
